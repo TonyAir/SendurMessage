@@ -28,6 +28,12 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/stopButton"
         android:layout_below="@+id/stopButton"
-        android:text="傳送器" />
-
+        android:text="message傳送器" />
+	<Button
+        android:id="@+id/dbButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sendButton"
+        android:layout_below="@+id/sendButton"
+        android:text="DB傳送器" />
 </RelativeLayout>

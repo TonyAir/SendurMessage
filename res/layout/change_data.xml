@@ -10,4 +10,26 @@
         android:layout_height="wrap_content"
         android:text="调教数据库" />
 
+    <EditText
+        android:id="@+id/keywordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input the keywords"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/detailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="input the detail"
+        android:inputType="textMultiLine" />
+
+
+    <Button
+        android:id="@+id/insertTb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插入数据到talktb" />
+
 </LinearLayout>

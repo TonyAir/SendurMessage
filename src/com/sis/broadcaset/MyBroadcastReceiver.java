@@ -9,9 +9,6 @@ import android.content.IntentFilter;
  * @author Administrator
  *
  */
-
-
-
 public class MyBroadcastReceiver extends Activity{
 	private BroadcastReceiver receiver;
 	@Override
